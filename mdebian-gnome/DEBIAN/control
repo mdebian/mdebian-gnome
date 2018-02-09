@@ -1,0 +1,8 @@
+Package: mdebian-gnome
+Version: 1.0
+Section: admin
+Priority: optional
+Architecture: all
+Depends: desktop-base, wget
+Maintainer: Michaël Roy <microygh@gmail.com>
+Description: Custom Gnome configuration

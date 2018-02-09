@@ -1,0 +1,16 @@
+#! /bin/sh
+
+# Halt on error
+set -e
+
+# Download Atom
+wget -O /tmp/atom.deb https://atom.io/download/deb
+
+# Install Atom
+dpkg -i /tmp/atom.deb
+
+# Install the dependencies
+apt -f -y install
+
+# Remove the package
+rm -rf /tmp/atom.deb
