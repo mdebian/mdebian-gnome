@@ -2,9 +2,10 @@
 
 # Select the different configurations to install
 SELECT=$(whiptail --title "mdebian-base" --checklist --separate-output \
-"Choose custom configurations :" 20 78 7 \
+"Choose custom configurations :" 20 78 4 \
 "atom" "Install atom" ON \
 "chrome" "Install chrome" ON \
+"fonts" "Configure font rendering" ON \
 "gnome" "Configure Gnome" ON \
 3>&1 1>&2 2>&3)
 
