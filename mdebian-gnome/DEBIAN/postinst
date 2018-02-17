@@ -11,9 +11,10 @@ update-alternatives --set desktop-lockscreen.xml /usr/share/desktop-base/joy-the
 update-alternatives --set desktop-login-background /usr/share/desktop-base/joy-theme/login/background.svg
 update-alternatives --set desktop-theme /usr/share/desktop-base/joy-theme
 
-# Reconfigure Gnome
-#dpkg-reconfigure desktop-base
+# Reconfigure desktop-base
+echo "---------------------------------------"
 echo "Execute : dpkg-reconfigure desktop-base"
+echo "---------------------------------------"
 
 # Setup Gnome Shell
 glib-compile-schemas /usr/share/glib-2.0/schemas

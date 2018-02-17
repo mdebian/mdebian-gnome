@@ -11,6 +11,7 @@ update-alternatives --auto desktop-lockscreen.xml
 update-alternatives --auto desktop-login-background
 update-alternatives --auto desktop-theme
 
-# Reconfigure Gnome
-#dpkg-reconfigure desktop-base
+# Reconfigure desktop-base
+echo "---------------------------------------"
 echo "Execute : dpkg-reconfigure desktop-base"
+echo "---------------------------------------"
