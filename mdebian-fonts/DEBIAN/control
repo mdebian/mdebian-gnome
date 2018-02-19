@@ -1,8 +1,8 @@
 Package: mdebian-fonts
-Version: 1.0
+Version: 1.1
 Section: admin
 Priority: optional
 Architecture: all
-#Depends: wget
+Depends: fontconfig-config
 Maintainer: Michaël Roy <microygh@gmail.com>
 Description: Custom system font configuration
