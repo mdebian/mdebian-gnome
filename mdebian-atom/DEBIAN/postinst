@@ -4,4 +4,6 @@
 set -e
 
 # Install Atom !
+echo "-------------------"
 echo "Run install-atom..."
+echo "-------------------"

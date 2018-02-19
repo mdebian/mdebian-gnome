@@ -1,8 +1,5 @@
 #! /bin/sh
 
-# Halt on error
-set -e
-
 # Download Atom
 wget -O /tmp/atom.deb https://atom.io/download/deb
 

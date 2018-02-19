@@ -4,4 +4,6 @@
 set -e
 
 # Install Chrome !
+echo "---------------------"
 echo "Run install-chrome..."
+echo "---------------------"
