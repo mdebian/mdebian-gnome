@@ -16,5 +16,5 @@ echo "---------------------------------------"
 echo "Execute : dpkg-reconfigure desktop-base"
 echo "---------------------------------------"
 
-# Setup Gnome Shell
-glib-compile-schemas /usr/share/glib-2.0/schemas
+# Update dconf
+dconf update
