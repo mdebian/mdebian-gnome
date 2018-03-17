@@ -8,6 +8,3 @@ dpkg -i /tmp/atom.deb
 
 # Install the dependencies
 apt -f -y install
-
-# Remove the package
-rm -rf /tmp/atom.deb

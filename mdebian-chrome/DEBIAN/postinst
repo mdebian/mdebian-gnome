@@ -1,9 +1,0 @@
-#! /bin/sh
-
-# Halt on error
-set -e
-
-# Install Chrome !
-echo "---------------------"
-echo "Run install-chrome..."
-echo "---------------------"

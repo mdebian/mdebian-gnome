@@ -1,8 +1,0 @@
-Package: mdebian-atom
-Version: 1.1
-Section: admin
-Priority: optional
-Architecture: all
-Depends: wget
-Maintainer: Michaël Roy <microygh@gmail.com>
-Description: Install Atom script
