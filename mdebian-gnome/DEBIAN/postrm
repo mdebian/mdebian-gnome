@@ -11,10 +11,9 @@ update-alternatives --auto desktop-lockscreen.xml
 update-alternatives --auto desktop-login-background
 update-alternatives --auto desktop-theme
 
-# Reconfigure desktop-base
-echo "---------------------------------------"
-echo "Execute : dpkg-reconfigure desktop-base"
-echo "---------------------------------------"
+# Apply GRUB background update into /boot
+update-grub
+update-initramfs -u
 
 # Update dconf
 dconf update

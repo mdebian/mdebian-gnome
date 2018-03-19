@@ -11,10 +11,9 @@ update-alternatives --set desktop-lockscreen.xml /usr/share/desktop-base/joy-the
 update-alternatives --set desktop-login-background /usr/share/desktop-base/joy-theme/login/background.svg
 update-alternatives --set desktop-theme /usr/share/desktop-base/joy-theme
 
-# Reconfigure desktop-base
-echo "---------------------------------------"
-echo "Execute : dpkg-reconfigure desktop-base"
-echo "---------------------------------------"
+# Apply GRUB background update into /boot
+update-grub
+update-initramfs -u
 
 # Update dconf
 dconf update
